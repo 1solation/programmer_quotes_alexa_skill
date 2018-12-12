@@ -2,7 +2,7 @@
 
 >An Alexa Skill that outputs random 'programmer-esque' quotes when invoked, using AWS Lambda as the backend and programmed in NodeJS.
 
-## Not currently in the Alexa Skill Store
+## *** Not currently in the Alexa Skill Store ***
 
  1. Must have an Amazon Echo device to use this skill.
  2. Open the Amazon Echo companion mobile application.
