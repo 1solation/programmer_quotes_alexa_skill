@@ -1,0 +1,81 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "dev quotes",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "give me some help",
+                        "help me",
+                        "help",
+                        "what can you do"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": [
+                        "menu",
+                        "start ",
+                        "home",
+                        "go home"
+                    ]
+                },
+                {
+                    "name": "GetNewQuoteIntent",
+                    "slots": [],
+                    "samples": [
+                        "dev quote",
+                        "tell me my daily dev quote",
+                        "tell me my dev quote",
+                        "daily dev quote",
+                        "dev daily quote",
+                        "dev quote of the day",
+                        "whats my dev quote",
+                        "say my quote of the day",
+                        "say something",
+                        "whats my quote now",
+                        "whats my quote right now",
+                        "daily quote",
+                        "quote of the day",
+                        "whats my quote of the day",
+                        "tell me my quote today",
+                        "whats my quote today",
+                        "whats my quote ",
+                        "say a quote",
+                        "say quote",
+                        "random quote",
+                        "quote me",
+                        "quote",
+                        "tell me quote",
+                        "give me quote",
+                        "give me a random quote",
+                        "give me a cool quote",
+                        "give me a nice quote",
+                        "whats your quote for me",
+                        "tell me a quote",
+                        "spare a quote",
+                        "give me a quote",
+                        "give me some information",
+                        "give me some space information",
+                        "tell me something",
+                        "give me something"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
