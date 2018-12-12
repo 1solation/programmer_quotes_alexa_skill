@@ -37,6 +37,7 @@
                     "name": "GetNewQuoteIntent",
                     "slots": [],
                     "samples": [
+                        "tell me my daily quote",
                         "dev quote",
                         "tell me my daily dev quote",
                         "tell me my dev quote",
