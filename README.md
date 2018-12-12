@@ -10,7 +10,7 @@
  4. Click on Skills & Games.
  5. Search for ' xyz Quotes Skill'.
  6. Enable the skill.
- 7. say " Alexa, open xyz Quotes Skill"
+ 7. Say " Alexa, open xyz Quotes Skill"
 
 ## Usage
 Sample phrases to say to Alexa:
