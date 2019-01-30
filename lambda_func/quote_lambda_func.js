@@ -1,22 +1,6 @@
-/* eslint-disable  func-names */
-/* eslint quote-props: ["error", "consistent"]*/
-/**
- * This sample demonstrates a simple skill built with the Amazon Alexa Skills
- * nodejs skill development kit.
- * This sample supports multiple lauguages. (en-US, en-GB, de-DE).
- * The Intent Schema, Custom Slots and Sample Utterances for this skill, as well
- * as testing instructions are located at https://github.com/alexa/skill-sample-nodejs-fact
- **/
-
 'use strict';
 const Alexa = require('alexa-sdk');
 
-//=========================================================================================================================================
-//TODO: The items below this comment need your attention.
-//=========================================================================================================================================
-
-//Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.
-//Make sure to enclose your value in quotes, like this: const APP_ID = 'amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1';
 const APP_ID = 'amzn1.ask.skill.68306139-32a4-4030-be15-ae371ca90523';
 
 const SKILL_NAME = 'Random ?comp sci? Quotes';
@@ -25,9 +9,6 @@ const HELP_MESSAGE = 'You can ask me for a quote, or, you can say exit... What c
 const HELP_REPROMPT = 'What can I help you with?';
 const STOP_MESSAGE = 'Goodbye!';
 
-//=========================================================================================================================================
-//TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
-//=========================================================================================================================================
 const data = [
 "Don't worry about what anybody else is going to do. The best way to predict the future is to invent it. from Alan Kay",
 "Premature optimization is the root of all evil (or at least most of it) in programming. from Donald Knuth",
@@ -357,9 +338,6 @@ const data = [
 "Are you willing to wear your white belt? George Leonard, Mastery."
 ];
 
-//=========================================================================================================================================
-//Editing anything below this line might break your skill.
-//=========================================================================================================================================
 
 const handlers = {
     'LaunchRequest': function () {
