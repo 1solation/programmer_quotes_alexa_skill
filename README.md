@@ -8,9 +8,9 @@
  2. Open the Amazon Echo companion mobile application.
  3. Click on the hamburger menu icon to open the menu.
  4. Click on Skills & Games.
- 5. Search for ' xyz Quotes Skill'.
+ 5. Search for 'Programmer Quotes Skill'.
  6. Enable the skill.
- 7. Say " Alexa, open xyz Quotes Skill"
+ 7. Say " Alexa, open Programmer Quotes Skill"
 
 ## Usage
 Sample phrases to say to Alexa:
@@ -21,4 +21,4 @@ Sample phrases to say to Alexa:
     "Alexa, say a quote."
     "Alexa, tell me my daily quote."
 
-Over xyz different quotes available.
+Over 100+ different quotes available.
